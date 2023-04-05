@@ -28,6 +28,10 @@ The following is a general process for releasing and deploying your application 
 
 ![Alt text](Media/2.png)
 
+## Deployment in Multi-Environment
+
+![Alt text](Media/3.png)
+
 ## Release and Deployment Best Practices
 To ensure a smooth and successful release and deployment process, consider the following best practices:
 
