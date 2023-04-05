@@ -1,0 +1,123 @@
+Task ID:        ServerTasks-237
+Related IDs:    Deployments-1, Channels-1, Releases-1, Projects-1, Spaces-1, Environments-1
+Task status:    Success
+Task queued:    Wednesday, 05 April 2023 10:13:07 AM +00:00
+Task started:   Wednesday, 05 April 2023 10:13:08 AM +00:00
+Task completed: Wednesday, 05 April 2023 10:13:41 AM +00:00
+Task duration:  33 seconds
+Server version: 2023.2.4337-hotfix.4931
+Server node:    octopus-i059635-79bf6485d9-6c66q
+
+                    | == Success: Deploy NiceApp release 2023.4.5 to Development ==
+10:13:08   Verbose  |   Guided failure is not enabled for this task
+10:13:41   Info     |   The deployment completed successfully.
+                    | 
+                    |   == Success: Step 1: Hello ==
+10:13:41   Verbose  |     Hello completed
+                    |   
+                    |     == Success: Worker ==
+10:13:09   Verbose  |       Octopus Server version: 2023.2.4337-hotfix.4931
+10:13:09   Verbose  |       Environment Information:
+                    |       IsRunningInContainer: True
+                    |       OperatingSystem: Linux 5.4.0-1103-azure #109~18.04.1-Ubuntu SMP Wed Jan 25 20:53:00 UTC 2023
+                    |       OsBitVersion: x64
+                    |       Is64BitProcess: True
+                    |       CurrentUser: root
+                    |       MachineName: octopus-i059635-79bf6485d9-6c66q
+                    |       ProcessorCount: 2
+                    |       CurrentDirectory: /Octopus
+                    |       TempDirectory: /tmp/
+                    |       HostProcessName: Octopus.Server
+                    |       PID: 1
+10:13:09   Info     |       Leasing WindowsDefault dynamic worker...
+10:13:09   Info     |       Worker not ready, trying again in 10 seconds
+10:13:19   Info     |       Obtained WindowsDefault worker lease successfully.
+10:13:19   Verbose  |       Leased worker 23-04-05-0823-e87yt from pool Default Worker Pool (lease Leases-4166389).
+10:13:19   Verbose  |       Executing Hello (type Run a Script) on DynamicWorker 23-04-05-0823-e87yt
+10:13:20   Verbose  |       Acquiring isolation mutex RunningScript with NoIsolation in ServerTasks-237
+10:13:20   Verbose  |       Executable directory is C:\Windows\system32\WindowsPowershell\v1.0
+10:13:20   Verbose  |       Executable name or full path: C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe
+10:13:20   Verbose  |       No user context provided. Running as current user.
+10:13:20   Verbose  |       Starting C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe in working directory 'C:\Octopus\Tentacle\Work\20230405101319-237-2' using 'OEM United States' encoding running as 'NT AUTHORITY\SYSTEM' with the same environment variables as the launching process
+10:13:20   Verbose  |       Process C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe in C:\Octopus\Tentacle\Work\20230405101319-237-2 exited with code 0
+10:13:20   Verbose  |       Using Calamari.win-x64 25.4.1
+10:13:20   Verbose  |       Acquiring isolation mutex RunningScript with NoIsolation in ServerTasks-237
+10:13:20   Verbose  |       Executable directory is C:\Windows\system32\WindowsPowershell\v1.0
+10:13:20   Verbose  |       Executable name or full path: C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe
+10:13:20   Verbose  |       No user context provided. Running as current user.
+10:13:20   Verbose  |       Starting C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe in working directory 'C:\Octopus\Tentacle\Work\20230405101320-237-3' using 'OEM United States' encoding running as 'NT AUTHORITY\SYSTEM' with the same environment variables as the launching process
+10:13:21   Verbose  |       Process C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe in C:\Octopus\Tentacle\Work\20230405101320-237-3 exited with code 1
+10:13:21   Verbose  |       Using Calamari.win-x64 25.4.1
+10:13:21   Info     |       The version 25.4.1 of the Calamari.win-x64 tool has not been extracted, it will be extracted automatically.
+10:13:21   Verbose  |       Acquiring isolation mutex Calamari.win-x64 with NoIsolation in ServerTasks-237
+10:13:21   Verbose  |       Executable directory is C:\Windows\system32\WindowsPowershell\v1.0
+10:13:21   Verbose  |       Executable name or full path: C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe
+10:13:21   Verbose  |       No user context provided. Running as current user.
+10:13:21   Verbose  |       Starting C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe in working directory 'C:\Octopus\Tentacle\Work\20230405101321-237-4' using 'OEM United States' encoding running as 'NT AUTHORITY\SYSTEM' with the same environment variables as the launching process
+10:13:22   Verbose  |       Process C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe in C:\Octopus\Tentacle\Work\20230405101321-237-4 exited with code 0
+10:13:29   Verbose  |       Acquiring isolation mutex Calamari.win-x64 with FullIsolation in ServerTasks-237
+10:13:29   Verbose  |       Executable directory is C:\Windows\system32\WindowsPowershell\v1.0
+10:13:29   Verbose  |       Executable name or full path: C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe
+10:13:29   Verbose  |       No user context provided. Running as current user.
+10:13:29   Verbose  |       Starting C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe in working directory 'C:\Octopus\Tentacle\Work\20230405101329-237-5' using 'OEM United States' encoding running as 'NT AUTHORITY\SYSTEM' with the same environment variables as the launching process
+10:13:30   Verbose  |       Checking for C:\Octopus\Tentacle\Tools\Calamari.win-x64\25.4.1\Success.txt
+10:13:31   Verbose  |       Package: C:\Octopus\Tentacle\Work\20230405101329-237-5\Calamari.win-x64.25.4.1.nupkg
+10:13:31   Verbose  |       Destination: C:\Octopus\Tentacle\Tools\Calamari.win-x64\25.4.1
+10:13:38   Verbose  |       410 files extracted
+10:13:38   Verbose  |       Calamari.win-x64 25.4.1 extracted to C:\Octopus\Tentacle\Tools\Calamari.win-x64\25.4.1
+10:13:38   Verbose  |       Removing write permissions on C:\Octopus\Tentacle\Tools\Calamari.win-x64\25.4.1 for BUILTIN\Users
+10:13:38   Verbose  |       Cleaning up old Calamari.win-x64 versions...
+10:13:38   Verbose  |       Keeping only Calamari.win-x64 version 25.4.1...
+10:13:38   Verbose  |       Found no old versions of Calamari.win-x64 to delete...
+10:13:38   Verbose  |       Process C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe in C:\Octopus\Tentacle\Work\20230405101329-237-5 exited with code 0
+10:13:38   Info     |       Version 25.4.1 of the Calamari.win-x64 tool has been extracted successfully
+10:13:38   Verbose  |       Acquiring isolation mutex RunningScript with NoIsolation in ServerTasks-237
+10:13:38   Verbose  |       Executable directory is C:\Windows\system32\WindowsPowershell\v1.0
+10:13:38   Verbose  |       Executable name or full path: C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe
+10:13:38   Verbose  |       No user context provided. Running as current user.
+10:13:38   Verbose  |       Starting C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe in working directory 'C:\Octopus\Tentacle\Work\20230405101338-237-6' using 'OEM United States' encoding running as 'NT AUTHORITY\SYSTEM' with the same environment variables as the launching process
+10:13:39   Verbose  |       Calamari Version: 25.4.1
+10:13:39   Verbose  |       Environment Information:
+10:13:39   Verbose  |       OperatingSystem: Microsoft Windows NT 10.0.17763.0
+10:13:39   Verbose  |       OsBitVersion: x64
+10:13:39   Verbose  |       Is64BitProcess: True
+10:13:39   Verbose  |       CurrentUser: NT AUTHORITY\SYSTEM
+10:13:39   Verbose  |       MachineName: WIN-K268BEUBPHP
+10:13:39   Verbose  |       ProcessorCount: 2
+10:13:39   Verbose  |       CurrentDirectory: C:\Octopus\Tentacle\Work\20230405101338-237-6
+10:13:39   Verbose  |       TempDirectory: C:\Windows\TEMP\
+10:13:39   Verbose  |       HostProcess: Calamari (1324)
+10:13:39   Verbose  |       Performing variable substitution on 'C:\Octopus\Tentacle\Work\20230405101338-237-6\Script.ps1'
+10:13:39   Verbose  |       Executing 'C:\Octopus\Tentacle\Work\20230405101338-237-6\Script.ps1'
+10:13:40   Verbose  |       Setting Proxy Environment Variables
+10:13:40   Verbose  |       Name                           Value
+10:13:40   Verbose  |       ----                           -----
+10:13:40   Verbose  |       PSVersion                      5.1.17763.3770
+10:13:40   Verbose  |       PSEdition                      Desktop
+10:13:40   Verbose  |       PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0...}
+10:13:40   Verbose  |       BuildVersion                   10.0.17763.3770
+10:13:40   Verbose  |       CLRVersion                     4.0.30319.42000
+10:13:40   Verbose  |       WSManStackVersion              3.0
+10:13:40   Verbose  |       PSRemotingProtocolVersion      2.3
+10:13:40   Verbose  |       SerializationVersion           1.1.0.1
+10:13:40   Verbose  |       PowerShell Environment Information:
+10:13:40   Verbose  |       OperatingSystem: Microsoft Windows NT 10.0.17763.0
+10:13:40   Verbose  |       OsBitVersion: x64
+10:13:40   Verbose  |       Is64BitProcess: True
+10:13:40   Verbose  |       CurrentUser: NT AUTHORITY\SYSTEM
+10:13:40   Verbose  |       MachineName: WIN-K268BEUBPHP
+10:13:40   Verbose  |       ProcessorCount: 2
+10:13:40   Verbose  |       CurrentDirectory: C:\Octopus\Tentacle\Work\20230405101338-237-6
+10:13:40   Verbose  |       CurrentLocation: C:\Octopus\Tentacle\Work\20230405101338-237-6
+10:13:40   Verbose  |       TempDirectory: C:\Windows\TEMP\
+10:13:40   Verbose  |       HostProcess: powershell (2472)
+10:13:40   Verbose  |       TotalPhysicalMemory: 4193844 KB
+10:13:40   Verbose  |       AvailablePhysicalMemory: 2773920 KB
+10:13:41   Verbose  |       Invoking target script C:\Octopus\Tentacle\Work\20230405101338-237-6\Script.ps1 with  parameters.
+10:13:41   Info     |       Hello
+10:13:41   Verbose  |       Process C:\Windows\system32\WindowsPowershell\v1.0\PowerShell.exe in C:\Octopus\Tentacle\Work\20230405101338-237-6 exited with code 0
+10:13:41   Verbose  |       Updating manifest with output variables
+10:13:41   Verbose  |       Updating manifest with action evaluated variables
+10:13:41   Verbose  |       Successfully called release for dynamic pool lease Leases-4166389 : 23-04-05-0823-e87yt
+10:13:41   Verbose  |       Successfully finished Hello on a Worker
+                    |     
