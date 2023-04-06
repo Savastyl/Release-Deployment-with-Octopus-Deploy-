@@ -1,5 +1,6 @@
 # Octopus Deploy
 
+![Alt text](Media/4.png)
 
 Octopus Deploy is a powerful and flexible deployment automation tool that helps teams automate their release processes. This document provides guidance on how to release and deploy your application using Octopus Deploy.
 
@@ -42,6 +43,10 @@ To ensure a smooth and successful release and deployment process, consider the f
 + Ensure that all necessary prerequisites are met before initiating a deployment.
 + Automate as much of the deployment process as possible to minimize the risk of human error.
 
+## Email Notification
+![Alt text](Media/5.png)
+
+![Alt text](Media/6.png)
 ## Log
 
 ![Alt text](Media/Task%20Log.png)
